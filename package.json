@@ -1,0 +1,32 @@
+{
+  "name": "platzi-nuxt-eshop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host 0.0.0.0",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "dependencies": {
+    "nuxt": "^3.15.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "vuetify": "^3.7.5",
+    "@mdi/font": "^7.4.47",
+    "date-fns": "^3.6.0",
+    "date-fns-tz": "^3.2.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^2.0.0",
+    "@nuxt/test-utils": "^3.15.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "happy-dom": "^15.11.7",
+    "vitest": "^2.1.8",
+    "typescript": "^5.7.2"
+  },
+  "packageManager": "pnpm@9.15.1"
+}
